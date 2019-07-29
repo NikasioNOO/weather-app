@@ -1,3 +1,4 @@
+console.log("Init")
 const path = require('path');
 const express = require('express');
 const hbs = require('hbs');
