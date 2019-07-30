@@ -52,9 +52,9 @@ app.get('/help', (req, res) => {
 });
 
 app.get('/about', (req, res) => {
-    res.render('index',
+    res.render('about',
         {
-            title: 'Help',
+            title: 'About',
             name: 'Nicolas Ortiz'
         })
 });
